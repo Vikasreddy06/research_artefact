@@ -1,0 +1,56 @@
+{
+  "run": "data/runs/aws/pilot",
+  "backend": "live",
+  "requests": 150,
+  "invocations": 300,
+  "stream_self_mismatch": 0,
+  "no_mutation": 0,
+  "missing_deliveries": 0,
+  "errors": 0,
+  "lost_records": 0,
+  "unlogged_mutations": 0,
+  "dup_clamped": 0,
+  "unplanned_timeouts": 0,
+  "injections_not_timed_out": 0,
+  "resent_deliveries": 0,
+  "cells": [
+    {
+      "path": "P1",
+      "multiplicity": 2,
+      "requests": 50,
+      "injected_retries": 50,
+      "dup_mutations": 50,
+      "dup_rate": 1.0,
+      "ccf_per_retry": NaN,
+      "successful_retry_rate": 0.0,
+      "capacity_mean": 2.0,
+      "latency_mean_ms": 2463.89244
+    },
+    {
+      "path": "P2",
+      "multiplicity": 2,
+      "requests": 50,
+      "injected_retries": 50,
+      "dup_mutations": 0,
+      "dup_rate": 0.0,
+      "ccf_per_retry": 1.0,
+      "successful_retry_rate": 1.0,
+      "capacity_mean": 2.0,
+      "latency_mean_ms": 2485.10074
+    },
+    {
+      "path": "P3",
+      "multiplicity": 2,
+      "requests": 50,
+      "injected_retries": 50,
+      "dup_mutations": 0,
+      "dup_rate": 0.0,
+      "ccf_per_retry": 1.0,
+      "successful_retry_rate": 1.0,
+      "capacity_mean": 4.0,
+      "latency_mean_ms": 2501.20518
+    }
+  ],
+  "problems": [],
+  "ok": true
+}

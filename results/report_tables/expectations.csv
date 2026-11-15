@@ -1,0 +1,19 @@
+run,expectation,multiplicity,subject,estimate,ci_lo,rule,decision
+1,E1,2,P1 duplicate rate,1.0,0.996173241514445,Wilson and cluster-bootstrap lower bounds > 0.5,supported
+1,E1,5,P1 duplicate rate,1.0,0.9990405567102988,Wilson and cluster-bootstrap lower bounds > 0.5,supported
+1,E2,2,P2 reduction vs P1,1.0,0.9920157680294004,lower bound of the relative reduction > 0.90,supported
+1,E2,2,P3 reduction vs P1,1.0,0.9920157680294004,lower bound of the relative reduction > 0.90,supported
+1,E2,5,P2 reduction vs P1,1.0,0.9980021573239936,lower bound of the relative reduction > 0.90,supported
+1,E2,5,P3 reduction vs P1,1.0,0.9980021573239936,lower bound of the relative reduction > 0.90,supported
+2,E1,2,P1 duplicate rate,1.0,0.996173241514445,Wilson and cluster-bootstrap lower bounds > 0.5,supported
+2,E1,5,P1 duplicate rate,1.0,0.9990405567102988,Wilson and cluster-bootstrap lower bounds > 0.5,supported
+2,E2,2,P2 reduction vs P1,1.0,0.9920157680294004,lower bound of the relative reduction > 0.90,supported
+2,E2,2,P3 reduction vs P1,1.0,0.9920157680294004,lower bound of the relative reduction > 0.90,supported
+2,E2,5,P2 reduction vs P1,1.0,0.9980021573239936,lower bound of the relative reduction > 0.90,supported
+2,E2,5,P3 reduction vs P1,1.0,0.9980021573239936,lower bound of the relative reduction > 0.90,supported
+3,E1,2,P1 duplicate rate,1.0,0.996173241514445,Wilson and cluster-bootstrap lower bounds > 0.5,supported
+3,E1,5,P1 duplicate rate,1.0,0.9990405567102988,Wilson and cluster-bootstrap lower bounds > 0.5,supported
+3,E2,2,P2 reduction vs P1,1.0,0.9920157680294004,lower bound of the relative reduction > 0.90,supported
+3,E2,2,P3 reduction vs P1,1.0,0.9920157680294004,lower bound of the relative reduction > 0.90,supported
+3,E2,5,P2 reduction vs P1,1.0,0.9980021573239936,lower bound of the relative reduction > 0.90,supported
+3,E2,5,P3 reduction vs P1,1.0,0.9980021573239936,lower bound of the relative reduction > 0.90,supported

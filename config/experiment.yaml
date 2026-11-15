@@ -1,0 +1,32 @@
+table_name: idem-eval
+function_name: idem-eval-fn
+
+paths: [P1, P2, P3]          # plain write, conditional write, idempotency key
+multiplicities: [1, 2, 5]    # deliveries of the same request_id; all but the last time out after the write
+
+injection:
+  primary: after_commit      # timeout forced after the path's writes have committed
+  sensitivity: p3_between    # P3 only: timeout between the business write and marking the key COMPLETED
+
+pilot:
+  requests_per_path: 50
+  multiplicity: 2            # one injected retry per pilot request
+
+evaluation:
+  # requests per path and number of deliveries; the pilot checks that this size is enough
+  requests_per_cell: 1000
+  seed: 25178849                        # default seed
+
+payload_kb: 1                # business item padded to just under 1 KB
+p3_key_ttl_s: 3600
+
+practical:                   # pilot sizing targets (95% CI half-widths)
+  duplicate_rate_pp: 1.0     # percentage points
+  capacity_pct: 5            # % of the mean
+
+alpha: 0.05
+
+warmup_rounds: 2             # waves of no-op invocations (one per worker) before a phase; not analysed
+
+budget:
+  max_invocations: 60000     # largest number of Lambda invocations in one run

@@ -1,0 +1,40 @@
+{
+  "phase": "evaluation",
+  "backend": "live",
+  "requests": 9000,
+  "invocations": 24000,
+  "workers": 1,
+  "warmup": {
+    "calls": 2,
+    "cold": 0
+  },
+  "t_start": 1791640014.6856775,
+  "t_end": 1791705905.3294706,
+  "t_start_utc": "2026-10-10T13:46:54+00:00",
+  "versions": {
+    "region": "eu-west-1",
+    "lambda": {
+      "runtime": "python3.12",
+      "architecture": "x86_64",
+      "memory_mb": 128,
+      "timeout_s": 3,
+      "boto3": "1.35.36",
+      "botocore": "1.35.36",
+      "sdk_retries": 0
+    },
+    "dynamodb": {
+      "capacity_mode": "on_demand",
+      "table_class": "STANDARD",
+      "streams": "NEW_AND_OLD_IMAGES"
+    },
+    "iac": {
+      "tool": "terraform",
+      "terraform": "1.15.7",
+      "aws_provider": "6.64.0"
+    },
+    "analysis": {
+      "python": "3.12"
+    }
+  },
+  "seed": 125181849
+}

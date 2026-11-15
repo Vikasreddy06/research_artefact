@@ -1,0 +1,13 @@
+group,run,requests,deliveries,missing,errors,re-sent,unplanned timeouts,requests never written,check passed,CloudWatch invocations minus driver,CloudWatch write units minus counted
+evaluation,1,9000,24000,0,0,0,0,0,True,0.0,1.0
+evaluation,2,9000,24000,0,0,0,0,0,True,0.0,-1.0
+evaluation,3,9000,24000,0,0,0,0,0,True,0.0,-1.0
+sensitivity,1,2000,7000,0,0,0,0,0,True,0.0,-3.0
+sensitivity,2,2000,7000,0,0,0,0,0,True,0.0,-2.0
+sensitivity,3,2000,7000,0,0,0,0,0,True,0.0,-2.0
+load 100,1,9000,24000,0,0,0,1,0,False,N/A,N/A
+load 100,2,9000,24000,0,0,0,0,0,True,N/A,N/A
+load 100,3,9000,24000,0,0,0,1,0,False,N/A,N/A
+load 900,1,9000,24000,0,0,0,1,1,False,N/A,N/A
+load 900,2,9000,24000,0,0,0,0,0,True,N/A,N/A
+load 900,3,9000,24000,0,0,0,0,0,True,N/A,N/A

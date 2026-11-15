@@ -1,0 +1,10 @@
+# List prices for scripts/budget_estimate.py, from the AWS Price List API (eu-west-1):
+#   AmazonDynamoDB  publicationDate 2026-09-11T12:44:22Z  on-demand write / read request units, Standard class
+#   AWSLambda       publicationDate 2026-10-01T18:47:46Z  EU-Lambda-GB-Second (x86, tier 1), EU-Request
+region: eu-west-1
+currency: USD
+dynamodb_write_request_unit: 0.0000007050   # $0.705 per million WRU
+dynamodb_read_request_unit: 0.0000001415    # $0.1415 per million RRU
+lambda_gb_second: 0.0000166667
+lambda_request: 0.0000002
+free_tier_ignored: true

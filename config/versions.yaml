@@ -1,0 +1,25 @@
+# Region and versions of the runtime, SDK and Terraform
+region: eu-west-1
+
+lambda:
+  runtime: python3.12
+  architecture: x86_64       # Lambda default
+  memory_mb: 128             # Lambda default
+  timeout_s: 3               # Lambda default
+  boto3: "1.35.36"           # bundled in the zip (src/lambda_fn/requirements.txt)
+  botocore: "1.35.36"
+  sdk_retries: 0             # SDK retries off
+
+dynamodb:
+  capacity_mode: on_demand
+  table_class: STANDARD
+  streams: NEW_AND_OLD_IMAGES   # stream of every change to the table
+
+iac:
+  tool: terraform
+  terraform: "1.15"
+  aws_provider: "6.64.0"     # infra/.terraform.lock.hcl
+  archive_provider: "2.8.1"  # builds the function zip
+
+analysis:
+  python: "3.12"

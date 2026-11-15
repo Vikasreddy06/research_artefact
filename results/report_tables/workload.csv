@@ -1,0 +1,9 @@
+source,run,requests,amount_mean,amount_median,amount_min,amount_max
+dataset,N/A,284807,88.35,22.0,0.0,25691.16
+pilot,1,150,77.88,15.61,0.0,835.0
+evaluation,1,9000,86.7,22.98,0.0,6669.0
+evaluation,2,9000,90.56,21.84,0.0,6454.74
+evaluation,3,9000,91.92,20.8,0.0,8790.26
+sensitivity,1,2000,88.97,25.0,0.0,3033.4
+sensitivity,2,2000,79.21,18.94,0.0,5934.9
+sensitivity,3,2000,84.84,19.95,0.0,3848.01

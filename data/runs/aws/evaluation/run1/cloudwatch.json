@@ -1,0 +1,26 @@
+{
+  "window_utc": [
+    "2026-10-10T13:47:00+00:00",
+    "2026-10-11T08:05:00+00:00"
+  ],
+  "cloudwatch": {
+    "wcu": 29995.0,
+    "rcu": 0.0,
+    "invocations": 23996.0,
+    "errors": 14998.0
+  },
+  "driver": {
+    "deliveries": 23996,
+    "timeouts": 14998,
+    "errors": 0,
+    "wcu_reported": 19996.0,
+    "wcu_rule": 9998.0,
+    "rcu_reported": 0.0
+  },
+  "compare": {
+    "wcu_cloudwatch_minus_reported": 9999.0,
+    "wcu_cloudwatch_minus_reported_plus_rule": 1.0,
+    "invocations_minus_driver": 0.0,
+    "errors_minus_timeouts_and_errors": 0.0
+  }
+}

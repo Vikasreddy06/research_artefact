@@ -1,0 +1,8 @@
+{
+  "source": "live",
+  "evaluation": "data/runs/aws/evaluation/run3",
+  "sensitivity": "data/runs/aws/sensitivity/run3",
+  "alpha": 0.05,
+  "B": 2000,
+  "seed": 0
+}

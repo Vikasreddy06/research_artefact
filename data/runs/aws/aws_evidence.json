@@ -1,0 +1,51 @@
+{
+  "checked_utc": "2026-11-14",
+  "source": "AWS CloudTrail lookup-events (90-day event history) and the Lambda, EC2 and Service Quotas read-only APIs, eu-west-1",
+  "driver_instance_type_changes": [
+    {
+      "event_time_utc": "2026-10-23T12:16:56Z",
+      "instance_id": "i-0d0c9f558bf0692b7",
+      "instance_type_set_to": "m7i-flex.large",
+      "event_id": "69d6cef1-20ca-4608-a72c-82800928a8f2"
+    },
+    {
+      "event_time_utc": "2026-10-23T12:23:10Z",
+      "instance_id": "i-0d0c9f558bf0692b7",
+      "instance_type_set_to": "t3.micro",
+      "event_id": "36c0e34e-f05d-4685-8277-b03f14f63034"
+    },
+    {
+      "event_time_utc": "2026-10-30T03:38:35Z",
+      "instance_id": "i-0d0c9f558bf0692b7",
+      "instance_type_set_to": "m7i-flex.large",
+      "event_id": "9c2390ae-5cf8-4d7c-8729-9b80471cf78f"
+    },
+    {
+      "event_time_utc": "2026-10-30T03:49:45Z",
+      "instance_id": "i-0d0c9f558bf0692b7",
+      "instance_type_set_to": "t3.micro",
+      "event_id": "31d4f5ef-78d3-464f-9fcb-a8d8384edf54"
+    }
+  ],
+  "lambda_function": {
+    "FunctionName": "idem-eval-fn",
+    "Runtime": "python3.12",
+    "MemorySize": 128,
+    "Timeout": 3,
+    "Architectures": [
+      "x86_64"
+    ],
+    "LastModified": "2026-10-10T13:26:07.435+0000",
+    "CodeSha256": "TsLAmzGVnQHmJnmNMcMeteu+ktdLS4TxAiFaDOAi3do="
+  },
+  "lambda_async_retries": 0,
+  "lambda_concurrent_executions_quota": 1000,
+  "driver_instance": {
+    "instance_id": "i-0d0c9f558bf0692b7",
+    "image_id": "ami-087fc0fcee2c7570a",
+    "image_name": "al2023-ami-2023.12.20260930.0-kernel-6.18-x86_64",
+    "availability_zone": "eu-west-1c",
+    "last_start_time": "2026-10-30T03:38:37+00:00",
+    "type_when_checked": "t3.micro"
+  }
+}

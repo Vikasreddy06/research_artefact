@@ -1,0 +1,3 @@
+path,multiplicity,runs,dup_rate_mean,dup_rate_min,dup_rate_max,capacity_mean,capacity_min,capacity_max,latency_mean,latency_min,latency_max
+P3,2,3,1.0,1.0,1.0,5.0,5.0,5.0,2563.7790526666668,2512.615369,2615.6440789999997
+P3,5,3,1.0,1.0,1.0,11.0,11.0,11.0,2565.204138333333,2516.749493,2622.092691

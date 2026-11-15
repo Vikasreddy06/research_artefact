@@ -1,0 +1,9 @@
+{
+  "N": 1000,
+  "required": 189,
+  "binding": "P1 duplicate rate",
+  "configured": 1000,
+  "budget_max_n": 2499,
+  "reason": "the configured size meets the pilot requirement (largest requirement 189 <= 1000)",
+  "source": "live"
+}

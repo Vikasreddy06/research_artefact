@@ -1,0 +1,130 @@
+{
+  "run": "data/runs/aws/load/w100/run3",
+  "backend": "live",
+  "requests": 9000,
+  "invocations": 24000,
+  "stream_self_mismatch": 0,
+  "no_mutation": 0,
+  "missing_deliveries": 0,
+  "errors": 0,
+  "lost_records": 1,
+  "unlogged_mutations": 0,
+  "dup_clamped": 0,
+  "unplanned_timeouts": 1,
+  "injections_not_timed_out": 0,
+  "resent_deliveries": 0,
+  "cells": [
+    {
+      "path": "P1",
+      "multiplicity": 1,
+      "requests": 1000,
+      "injected_retries": 0,
+      "dup_mutations": 0,
+      "dup_rate": NaN,
+      "ccf_per_retry": NaN,
+      "successful_retry_rate": NaN,
+      "capacity_mean": 1.0,
+      "latency_mean_ms": 615.796754
+    },
+    {
+      "path": "P1",
+      "multiplicity": 2,
+      "requests": 1000,
+      "injected_retries": 1000,
+      "dup_mutations": 1000,
+      "dup_rate": 1.0,
+      "ccf_per_retry": NaN,
+      "successful_retry_rate": 0.0,
+      "capacity_mean": 2.0,
+      "latency_mean_ms": 2108.4864780000003
+    },
+    {
+      "path": "P1",
+      "multiplicity": 5,
+      "requests": 1000,
+      "injected_retries": 4000,
+      "dup_mutations": 3999,
+      "dup_rate": 0.99975,
+      "ccf_per_retry": NaN,
+      "successful_retry_rate": 0.00025,
+      "capacity_mean": 4.999,
+      "latency_mean_ms": 2130.569751
+    },
+    {
+      "path": "P2",
+      "multiplicity": 1,
+      "requests": 1000,
+      "injected_retries": 0,
+      "dup_mutations": 0,
+      "dup_rate": NaN,
+      "ccf_per_retry": NaN,
+      "successful_retry_rate": NaN,
+      "capacity_mean": 1.0,
+      "latency_mean_ms": 530.552219
+    },
+    {
+      "path": "P2",
+      "multiplicity": 2,
+      "requests": 1000,
+      "injected_retries": 1000,
+      "dup_mutations": 0,
+      "dup_rate": 0.0,
+      "ccf_per_retry": 1.0,
+      "successful_retry_rate": 1.0,
+      "capacity_mean": 2.0,
+      "latency_mean_ms": 2130.053559
+    },
+    {
+      "path": "P2",
+      "multiplicity": 5,
+      "requests": 1000,
+      "injected_retries": 4000,
+      "dup_mutations": 0,
+      "dup_rate": 0.0,
+      "ccf_per_retry": 1.0,
+      "successful_retry_rate": 1.0,
+      "capacity_mean": 5.0,
+      "latency_mean_ms": 2164.929617
+    },
+    {
+      "path": "P3",
+      "multiplicity": 1,
+      "requests": 1000,
+      "injected_retries": 0,
+      "dup_mutations": 0,
+      "dup_rate": NaN,
+      "ccf_per_retry": NaN,
+      "successful_retry_rate": NaN,
+      "capacity_mean": 3.0,
+      "latency_mean_ms": 648.3035130000001
+    },
+    {
+      "path": "P3",
+      "multiplicity": 2,
+      "requests": 1000,
+      "injected_retries": 1000,
+      "dup_mutations": 0,
+      "dup_rate": 0.0,
+      "ccf_per_retry": 1.0,
+      "successful_retry_rate": 1.0,
+      "capacity_mean": 4.0,
+      "latency_mean_ms": 2139.175489
+    },
+    {
+      "path": "P3",
+      "multiplicity": 5,
+      "requests": 1000,
+      "injected_retries": 4000,
+      "dup_mutations": 0,
+      "dup_rate": 0.0,
+      "ccf_per_retry": 1.0,
+      "successful_retry_rate": 1.0,
+      "capacity_mean": 7.0,
+      "latency_mean_ms": 2166.416415
+    }
+  ],
+  "problems": [
+    "unplanned_timeouts=1"
+  ],
+  "ok": false
+}

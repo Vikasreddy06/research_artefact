@@ -1,0 +1,7 @@
+path,metric,pilot_n,mean,sd,target,required_n,conservative_n
+P1,duplicate rate,50,1.0,0.0,+-1.0 pp,189,2546
+P1,capacity,50,2.0,0.0,+-5 % of mean,1,1
+P2,duplicate rate,50,0.0,0.0,+-1.0 pp,189,2546
+P2,capacity,50,2.0,0.0,+-5 % of mean,1,1
+P3,duplicate rate,50,0.0,0.0,+-1.0 pp,189,2546
+P3,capacity,50,4.0,0.0,+-5 % of mean,1,1

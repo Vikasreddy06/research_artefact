@@ -1,0 +1,44 @@
+{
+  "run": "data/runs/aws/sensitivity/run3",
+  "backend": "live",
+  "requests": 2000,
+  "invocations": 7000,
+  "stream_self_mismatch": 0,
+  "no_mutation": 0,
+  "missing_deliveries": 0,
+  "errors": 0,
+  "lost_records": 0,
+  "unlogged_mutations": 0,
+  "dup_clamped": 0,
+  "unplanned_timeouts": 0,
+  "injections_not_timed_out": 0,
+  "resent_deliveries": 0,
+  "cells": [
+    {
+      "path": "P3",
+      "multiplicity": 2,
+      "requests": 1000,
+      "injected_retries": 1000,
+      "dup_mutations": 1000,
+      "dup_rate": 1.0,
+      "ccf_per_retry": 0.0,
+      "successful_retry_rate": 0.0,
+      "capacity_mean": 5.0,
+      "latency_mean_ms": 2563.07771
+    },
+    {
+      "path": "P3",
+      "multiplicity": 5,
+      "requests": 1000,
+      "injected_retries": 4000,
+      "dup_mutations": 4000,
+      "dup_rate": 1.0,
+      "ccf_per_retry": 0.0,
+      "successful_retry_rate": 0.0,
+      "capacity_mean": 11.0,
+      "latency_mean_ms": 2556.770231
+    }
+  ],
+  "problems": [],
+  "ok": true
+}

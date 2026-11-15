@@ -1,0 +1,10 @@
+expectation,multiplicity,subject,estimate,ci_lo,ci_hi,p,rule,decision
+E1,2,P1 duplicate rate,1.0,0.996173241514445,1.0,9.332636185032189e-302,Wilson and cluster-bootstrap lower bounds > 0.5,supported
+E1,5,P1 duplicate rate,0.99975,0.9985851689339011,0.9999558674980424,0.0,Wilson and cluster-bootstrap lower bounds > 0.5,supported
+E2,2,P2 reduction vs P1,1.0,0.9920157680294005,0.999968719572741,N/A,lower bound of the relative reduction > 0.90,supported
+E2,2,P3 reduction vs P1,1.0,0.9920157680294005,0.999968719572741,N/A,lower bound of the relative reduction > 0.90,supported
+E2,5,P2 reduction vs P1,1.0,0.9980016577143315,0.9999921790640699,N/A,lower bound of the relative reduction > 0.90,supported
+E2,5,P3 reduction vs P1,1.0,0.9980016577143315,0.9999921790640699,N/A,lower bound of the relative reduction > 0.90,supported
+E3,1,P3 - P2 capacity per request,2.0,N/A,N/A,N/A,"reported as a count, not tested","reported, not tested"
+E3,2,P3 - P2 capacity per request,2.0,N/A,N/A,N/A,"reported as a count, not tested","reported, not tested"
+E3,5,P3 - P2 capacity per request,2.0,N/A,N/A,N/A,"reported as a count, not tested","reported, not tested"
